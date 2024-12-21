@@ -1,0 +1,61 @@
+/* styles.css */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #212529;
+    color: #f8f9fa;
+}
+
+h1 {
+    color: #343a40;
+}
+
+body.dark-mode h1 {
+    color: #f8f9fa;
+}
+
+#transaction-form .form-control, 
+#transaction-form .form-select {
+    border-radius: 20px;
+}
+
+#transaction-form button {
+    border-radius: 20px;
+}
+
+#transaction-list .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.income {
+    color: green;
+}
+
+.expense {
+    color: red;
+}
+
+.dark-mode .bg-light {
+    background-color: #343a40 !important;
+    color: #f8f9fa !important;
+}
+
+.dark-mode .form-control,
+.dark-mode .form-select,
+.dark-mode #goal {
+    background-color: #495057;
+    color: white;
+    border: 1px solid #6c757d;
+}
+
+.chart-container {
+    width: 15%; /* Adjust width as needed */
+    max-width: 00px; /* Set a maximum width */
+    margin: 0 auto; /* Center the chart */
+}
